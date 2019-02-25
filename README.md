@@ -17,7 +17,7 @@ For this project, we will be using an API so that we can retrieve the data of th
 | GET    | /all     | Beers[]            | Get all the beers from the DB |
 | GET    | /single/:id | { Beer }        | Get the specific beer      |
 | GET    | /random     | { Beer }        | Get a random beer from the DB |
-| POST   | /new        | { Message: OK } | Create a new beer (The fields are specify on the instructions)|
+| POST   | /new        | { Message: OK } | Create a new beer (The fields are specify on the instructions) NOT WORKING!!|
 | GET    | /search?q=`{query}` | Beers[10] | Search with a RegEx using the `query` specified and return the first ten result |
 
 On each iteration, we will explain which endpoint you should use!
@@ -135,7 +135,7 @@ On the `/random-beer` route, we will render a single beer that will be retrieved
 <img src="https://user-images.githubusercontent.com/23629340/40707457-05a22990-63f1-11e8-84b2-a86143b7b821.png" height="600px" />
 </div>
 
-### Iteration 7: Create New Beer
+### Iteration 7: Create New Beer NOTE: NOT WORKING!!
 
 Finally, on the `/new-beer` route, we should render a form where user could create new beers. The `form` should include the following fields:
 
